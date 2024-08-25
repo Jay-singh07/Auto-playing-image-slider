@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@ body {
     max-width: 600px;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 5px rgba(0,0,0,0.3);
 }
 
 .carousel-inner {
@@ -59,8 +59,8 @@ button i {
 }
 
 button:hover i {
-    color: #ff0;
-    text-shadow: 2px 2px 8px rgba(255, 255, 0, 0.7);
+    color: rgb(22, 32, 53);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 button:active {
@@ -92,16 +92,16 @@ button:active.next {
 .indicator {
     width: 10px;
     height: 10px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 252, 252, 0.699);
     border-radius: 50%;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .indicator.active {
-    background-color: #fff;
+    background-color: rgb(22, 32, 53);
 }
 
 .indicator:hover {
-    background-color: #ff0;
+    background-color: rgb(22, 32, 53);
 }
